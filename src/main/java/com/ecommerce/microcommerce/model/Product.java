@@ -9,7 +9,7 @@ import javax.validation.constraints.Min;
 import org.hibernate.validator.constraints.Length;
 
 @Entity
-@JsonIgnoreProperties(value = {"prixAchat", "id"})
+//@JsonIgnoreProperties(value = {"prixAchat", "id"})
 //@JsonFilter("monFiltreDynamique")
 public class Product {
 
